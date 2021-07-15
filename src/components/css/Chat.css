@@ -1,0 +1,111 @@
+.chat {
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1c2429;
+  background-color: #2a2f32;
+}
+
+.chat__headerInfo {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.chat__headerInfo > h3 {
+  margin-bottom: 3px;
+  font-weight: 500;
+  color: #fdfdfd;
+}
+
+.chat__headerInfo > p {
+  color: gray;
+}
+
+.chat__message {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  background-color: #262D31;
+  color: #fdfdfd;
+  margin-bottom: 30px;
+}
+
+.chat__receiver {
+  margin-left: auto;
+  background-color: #056162;
+}
+
+.chat__time {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.chat__name {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
+
+.sidebar__headerRight {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+}
+
+.chat__body {
+  flex: 1;
+  background-image: url("https://wallpaperaccess.com/full/2224368.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 30px;
+  height: 100%;
+}
+
+.chat__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid #1c2429;
+  background-color: #1e2428;
+}
+
+.chat__footer > form {
+  display: flex;
+  flex: 1;
+}
+
+.chat__footer > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 8px;
+  border: none;
+  background-color: #33383B;
+  color: #fff;
+}
+
+.sidebar__searchContainer > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10px;
+}
+
+.chat__footer > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10px;
+}
+
+.chat__footer > form > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10px;
+}
