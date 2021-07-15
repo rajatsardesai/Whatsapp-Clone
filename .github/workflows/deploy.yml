@@ -25,7 +25,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: install libraries
       run: npm install
-      working-directory: ${{env.working-directory}}
     - name: install firebase
       run: npm i firebase-tools -g  
     - name: deploy
